@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Test'){
             when {
-                env.BRANCH == 'master'
+                expression {
+                    env.BRANCH == 'master'
+                }
             }
             steps{
                sh 'echo hello'
