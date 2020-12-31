@@ -1,6 +1,3 @@
-/* groovylint-disable NestedBlockDepth */
-@Library('jenkins-lib@master') _ // groovylint-disable-line
-
 pipeline {
     agent any
 
