@@ -6,7 +6,7 @@ pipeline {
             when { branch 'master'
             }
             steps{
-               sh 'echo hello'
+               sh 'hello-script.sh'
             }
         }
     }
