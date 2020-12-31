@@ -6,7 +6,7 @@ pipeline {
             when { branch 'master'
             }
             steps{
-               sh 'hello-script.sh'
+               sh 'jenkins-sandbox/hello-script.sh'
             }
         }
     }
